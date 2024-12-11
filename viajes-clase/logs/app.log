@@ -1,0 +1,39 @@
+2024-12-11T17:08:03.580+01:00  INFO 7764 --- [viajes-clase] [restartedMain] c.d.viajesclase.ViajesClaseApplication   : Starting ViajesClaseApplication using Java 23.0.1 with PID 7764 (C:\Users\daw2\Desktop\Spreenboot\viajes-clase\target\classes started by daw2 in C:\Users\daw2\Desktop\spreenboot\viajes-clase)
+2024-12-11T17:08:03.581+01:00  INFO 7764 --- [viajes-clase] [restartedMain] c.d.viajesclase.ViajesClaseApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-11T17:08:03.621+01:00  INFO 7764 --- [viajes-clase] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-11T17:08:03.621+01:00  INFO 7764 --- [viajes-clase] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-11T17:08:04.096+01:00  INFO 7764 --- [viajes-clase] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-11T17:08:04.109+01:00  INFO 7764 --- [viajes-clase] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2024-12-11T17:08:04.492+01:00  INFO 7764 --- [viajes-clase] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-11T17:08:04.507+01:00  INFO 7764 --- [viajes-clase] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-11T17:08:04.507+01:00  INFO 7764 --- [viajes-clase] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11T17:08:04.545+01:00  INFO 7764 --- [viajes-clase] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-11T17:08:04.545+01:00  INFO 7764 --- [viajes-clase] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 923 ms
+2024-12-11T17:08:04.568+01:00  INFO 7764 --- [viajes-clase] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-11T17:08:04.751+01:00  INFO 7764 --- [viajes-clase] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./bd.viajes user=SA
+2024-12-11T17:08:04.754+01:00  INFO 7764 --- [viajes-clase] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-11T17:08:04.765+01:00  INFO 7764 --- [viajes-clase] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./bd.viajes'
+2024-12-11T17:08:04.859+01:00  INFO 7764 --- [viajes-clase] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-11T17:08:04.902+01:00  INFO 7764 --- [viajes-clase] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-11T17:08:04.930+01:00  INFO 7764 --- [viajes-clase] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-11T17:08:05.158+01:00  INFO 7764 --- [viajes-clase] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-11T17:08:05.196+01:00  WARN 7764 --- [viajes-clase] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-11T17:08:05.210+01:00  INFO 7764 --- [viajes-clase] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-11T17:08:05.466+01:00  INFO 7764 --- [viajes-clase] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-11T17:08:05.471+01:00  INFO 7764 --- [viajes-clase] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11T17:08:05.514+01:00  WARN 7764 --- [viajes-clase] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-11T17:08:05.777+01:00  INFO 7764 --- [viajes-clase] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-11T17:08:05.809+01:00  INFO 7764 --- [viajes-clase] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-11T17:08:05.816+01:00  INFO 7764 --- [viajes-clase] [restartedMain] c.d.viajesclase.ViajesClaseApplication   : Started ViajesClaseApplication in 2.596 seconds (process running for 4.169)
+2024-12-11T17:08:14.009+01:00  INFO 7764 --- [viajes-clase] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-11T17:08:14.023+01:00  INFO 7764 --- [viajes-clase] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-11T17:08:14.027+01:00  INFO 7764 --- [viajes-clase] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-11T17:08:14.029+01:00  INFO 7764 --- [viajes-clase] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-11T17:08:14.031+01:00  INFO 7764 --- [viajes-clase] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
